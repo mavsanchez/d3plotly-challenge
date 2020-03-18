@@ -1,0 +1,34 @@
+#bubble rect {
+        fill: steelblue;
+    }
+
+#bubble rect:hover {
+            fill: turquoise;
+        }
+
+#bubble .rectM {
+        stroke: green;
+        stroke-width: 1;
+        fill: green;
+        fill-opacity: .2;
+    }
+
+#bubble .rectM:hover {
+            fill: green;
+            fill-opacity: .5;
+        }
+
+#bubble text {
+        font: 10px sans-serif;
+    }
+
+#bubble .title {
+        font: 15px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
